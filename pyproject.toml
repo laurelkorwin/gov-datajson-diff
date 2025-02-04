@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gov-datajson-diff"
+version = "0.1.0"
+description = "Fork of datajson diff to compare commits"
+authors = ["Laurel Korwin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gitpython = "^3.1.44"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
