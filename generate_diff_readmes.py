@@ -2,8 +2,8 @@ import os
 import sys
 from git import Repo
 
-# Set the size limit for each Markdown file (5 MB), this is the largest github will display in its UI
-MAX_FILE_SIZE = 5 * 1024 * 1024  # 5 MB
+# Set the size limit for each Markdown file (1 MB), this is the largest github will display in its UI
+MAX_FILE_SIZE = 1 * 1024 * 1024  # 1 MB
 OUTPUT_FOLDER = "readable_diffs"
 SHORT_COMMIT_HASH_END = 7
 
