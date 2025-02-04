@@ -266,7 +266,7 @@ def analyze_folder(folder_name):
 
 def main():
     """
-    Analyze changes in readable-diffs folder using Claude API.
+    Analyze changes in readable_diffs folder using Claude API.
 
     Usage:
         python claude_analyzer.py [folder_name]
